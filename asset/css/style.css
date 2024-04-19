@@ -126,3 +126,11 @@
   line-height: 20px;
   text-align: left;
 }
+.modal_content {
+  width: 637px;
+}
+@media screen and (max-width: 768px) {
+  .modal_content {
+    width: 100% !important;
+  }
+}

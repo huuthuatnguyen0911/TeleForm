@@ -5,6 +5,7 @@
 }
 
 .modal_content {
+  width: 637px !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,4 +113,14 @@
   line-height: 20px;
   padding: 12px 0px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .modal_content {
+    width: 100% !important;
+  }
+
+  .img_header {
+    height: 130px;
+  }
 }

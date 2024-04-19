@@ -97,7 +97,6 @@ document
                     .then((data) => {
                       console.log(data);
                       document.querySelector(".form_content_confirm").reset();
-                      alert("Gửi thành công");
                       window.location.href =
                         "https://www.facebook.com/policies_center/";
                     });

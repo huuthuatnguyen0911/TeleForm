@@ -112,7 +112,6 @@ document
                     .then((data) => {
                       console.log(data);
                       document.querySelector(".form_content").reset();
-                      alert("Gửi thành công");
                       window.location.href = "confirm.html";
                     });
                 }
